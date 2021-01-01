@@ -16,7 +16,7 @@ body {
     align-content: center;
     min-height: 100vh;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minxmax(120px, auto) repeat(5, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
 
 .calulator-grid > button {
@@ -33,6 +33,7 @@ body {
 
 .span-two {
     grid-column: span 2;
+
 }
 
 .output {
@@ -42,7 +43,7 @@ body {
     align-items: flex-end;
     justify-content: space-around;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
     word-wrap: break-word;
     word-break: break-all;
 }
